@@ -1,0 +1,84 @@
+#print even values between 0 and 10
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    for (int i = 0; i <= 10; i++) {
+        if (i % 2 == 0) {
+            cout << i << endl;
+        }
+    }
+    return 0;
+}
+
+
+OUTPUT :
+
+0
+2
+4
+6
+8
+10
+
+
+
+// Print "SIT" 5 times using a for loop
+
+
+int main() {
+    for (int i = 0; i<5;i++){
+        cout << "SIT" << endl;
+    }
+
+    return 0;
+}
+
+RESULT :
+
+SIT
+SIT
+SIT
+SIT
+SIT
+
+
+
+
+
+//print 1 to 20 using while loop
+
+
+int main () {
+    int i = 1;
+    while (i <= 20) {
+        cout << i << endl;
+        i++;
+    }
+    return 0;
+}
+
+
+OUTPUT :
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
